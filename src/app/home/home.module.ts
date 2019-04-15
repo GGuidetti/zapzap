@@ -8,6 +8,7 @@ import { HomePage } from './home.page';
 import { ComponentPar } from '../componentes/par/component.par';
 import { ZapPar } from '../componentes/par/zap.par';
 import { Component3Par } from '../componentes/par/component3.par';
+import { ComponentSlide } from '../componentes/slide/component.slide';
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { Component3Par } from '../componentes/par/component3.par';
       }
     ])
   ],
-  declarations: [HomePage,ComponentPar,ZapPar,Component3Par]
+  declarations: [HomePage,ComponentPar,ZapPar,Component3Par,ComponentSlide]
 
 })
 export class HomePageModule {}
