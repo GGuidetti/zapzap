@@ -5,10 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { ComponentPar } from '../componentes/par/component.par';
-import { ZapPar } from '../componentes/par/zap.par';
-import { Component3Par } from '../componentes/par/component3.par';
-import { ComponentSlide } from '../componentes/slide/component.slide';
+
 
 
 @NgModule({
@@ -23,7 +20,7 @@ import { ComponentSlide } from '../componentes/slide/component.slide';
       }
     ])
   ],
-  declarations: [HomePage,ComponentPar,ZapPar,Component3Par,ComponentSlide]
+  declarations: [HomePage]
 
 })
 export class HomePageModule {}
